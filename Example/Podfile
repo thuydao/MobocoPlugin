@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MobocoPlugin_Example', :exclusive => true do
+  pod "MobocoPlugin", :path => "../"
+end
+
+target 'MobocoPlugin_Tests', :exclusive => true do
+  pod "MobocoPlugin", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
