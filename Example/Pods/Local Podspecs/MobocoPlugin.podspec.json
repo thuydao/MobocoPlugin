@@ -1,0 +1,25 @@
+{
+  "name": "MobocoPlugin",
+  "version": "0.1.0",
+  "summary": "A short description of MobocoPlugin.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MobocoPlugin",
+  "license": "MIT",
+  "authors": {
+    "Thuỷ Đào": "thuydd@smartosc.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MobocoPlugin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MobocoPlugin": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

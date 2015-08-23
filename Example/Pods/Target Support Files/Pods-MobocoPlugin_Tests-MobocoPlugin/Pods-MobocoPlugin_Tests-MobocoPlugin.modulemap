@@ -1,0 +1,6 @@
+framework module MobocoPlugin {
+  umbrella header "Pods-MobocoPlugin_Tests-MobocoPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
